@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.hero {
+  background: rgba(0, 0, 0, 0.75) url(/hero.jpg);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+.container {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 100px 20px;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container div input {
+  font-size: 22px;
+  padding: 6px 3px;
+  width: 320px;
+}
+.container div button {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  background: #0d6efd;
+  font-size: 22px;
+  padding: 10px;
+}
